@@ -5,7 +5,7 @@
                 <li class="el">
                     <watermark :src="item.img"></watermark>
                     <!-- <img :src="item.img.url" :alt="item.name" class="lazy tran imgbig"> -->
-                    <div class="case-summary" style="display: none;">
+                    <div class="case-summary">
                         <img src="../assets/index/watermark.png" alt="" class="logo">
                         <div style="position: relative;width:100%;height: 100%">
                             <p class="p2">
@@ -159,7 +159,7 @@ watch(() => props.category, (index) => {
             }
 
             .el:hover .case-summary {
-                display: block !important;
+                opacity: 1 !important;
 
             }
 
@@ -168,21 +168,24 @@ watch(() => props.category, (index) => {
                 font-size: 14px;
                 width: 90%;
                 height: 90%;
+                padding: 5%;
                 background: url(black.png) repeat;
                 top: 0;
                 left: 0;
                 position: absolute;
-                padding: 5%;
-                display: none;
-                opacity: 1;
+                opacity: 0;
+                display: flex;
                 color: #fff;
+
 
                 .logo {
                     width: 172px;
                     height: 118px;
                     position: absolute;
-                    top: 0px;
-                    left: 0px;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -90px;
+                    margin-top: -60px;
                 }
 
                 .p1 {
