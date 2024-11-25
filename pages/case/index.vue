@@ -57,15 +57,17 @@ onMounted(async () => {
     display: flex;
 
     .museo-light {
-        flex: 1;
+        // flex: 1;
         color: #5f6061;
         margin: 0;
+        margin-right: 20px;
         padding: 0;
         font-size: 18px;
         // line-height: 50px;
     }
 
     .warp-type-list {
+        flex: 1;
         flex-wrap: wrap;
         display: flex;
 

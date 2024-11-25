@@ -7,9 +7,9 @@
             <div class="contact1-right">
                 <div class="contact1">
                     <p class="syl"><span
-                            style="color: #000000;">很荣幸，因为有你的关注。同时，也恭喜你有机会了解到一家真正专业的新一代品牌咨询设计公司。我们不参与任何形式的比稿，以确保把重心放在现有的客户上。我们以领先的专业实战经验和自驱学习<span>型</span>组织为立业之本，不断锐意进取，创造品牌更高价值。期待与你深度合作！</span>
+                            style="color: #000000;">很荣幸，有你的关注。御全展览创立于2011年，致力于为各类型展览会提供多样化的展览展示设计搭建。公司一贯秉承“创新、优质、高效”的服务原则，以严谨的工作态度，雄厚的设计实力，完善的客户服务，丰富的行业经验和不断的创新精神，为每个客户创造品牌更高价值。期待与您深度合作！</span>
                     </p>
-                    <p class="msyhl">&nbsp;</p>
+                    <!-- <p class="msyhl">&nbsp;</p> -->
                 </div>
                 <div class="contact2">
                     <p><a name="dizhi"></a><span style="color: #000000; font-size: 22px;">御全展览，您身边的展览执行专家！</span><br>
@@ -21,25 +21,25 @@
                             style="color: #000000;">13167294134 赵先生<br>13167294134
                             胡小姐</span></p>
                     <p>&nbsp;</p>
-                    <p><span style="color: #000000;"><br></span></p>
-                    <p>&nbsp;</p>
-                    <p><img :src="qr_code" alt="" width="undefined" height="undefined">
+                    <!-- <p><span style="color: #000000;"><br></span></p> -->
+                    <!-- <p>&nbsp;</p> -->
+                    <p><img style="width: 300px;" :src="qr_code" alt="" width="undefined" height="undefined">
                     </p>
                     <p>&nbsp;</p>
                 </div>
                 <div class="contact3">
-                    <p><strong style="color: #000000;">使命：</strong><span style="color: #000000;">让中国品牌更出色</span></p>
-                    <p><strong style="color: #000000;">愿景：</strong><span style="color: #000000;">成为全球一流的品牌咨询设计公司</span>
+                    <p><strong style="color: #000000;">使命：</strong><span style="color: #000000;">帮助参展企业创造更高价值</span></p>
+                    <p><strong style="color: #000000;">愿景：</strong><span style="color: #000000;">成为全球一流的临展设计公司</span>
                     </p>
                     <p><strong style="color: #000000;">价值观：</strong><span style="color: #000000;">长期主义，利他主义</span></p>
-                    <p><strong style="color: #000000;">口号：</strong><span style="color: #000000;">懂美学，更懂生意</span></p>
-                    <p><strong style="color: #000000;">经营理念：</strong><span style="color: #000000;">树好口碑，近悦远来</span></p>
+                    <p><strong style="color: #000000;">口号：</strong><span style="color: #000000;">御传典范，全示非凡</span></p>
+                    <p><strong style="color: #000000;">经营理念：</strong><span style="color: #000000;">创建精美视觉、铸造精品展示</span></p>
                 </div>
                 <div>
-                    <p><span style="color: #000000;">巴顿重视人才、有业内领先的人才发展机制&nbsp;</span></p>
+                    <p><span style="color: #000000;">御全重视人才、有业内领先的人才发展机制 &nbsp;</span></p>
                 </div>
                 <div class="contact5">
-                    <p><span style="color: #000000;"><strong>我们欢迎优秀的品牌、咨询、包装、 IP、电商及空间设计师加入</strong></span></p>
+                    <p><span style="color: #000000;"><strong>我们欢迎优秀的临展设计师、平面设计师、国内外资深销售、经营丰富的项目经理加入</strong></span></p>
                     <p><span style="color: #000000;">简历投递邮箱：shyqzl@163.com&nbsp;&nbsp;</span></p>
                     <p><span style="color: #000000;">每一份简历我们都会认真查阅</span></p>
                 </div>
@@ -144,7 +144,7 @@ a:hover {
 }
 
 img {
-    border: 0
+    border: 0;
 }
 
 b,

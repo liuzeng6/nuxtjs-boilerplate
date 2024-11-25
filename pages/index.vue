@@ -45,7 +45,7 @@
             <div class="pflex">
                 <h3 class="pingfang">
                     <a href="/about" style="color: #2c2c2c"
-                        >御全=全球临展X企业展厅X企业活动X商业活动X舞台物美服务商</a
+                        >御全=全球临展X企业展厅X企业活动X商业活动X舞台舞美服务商</a
                     >
                 </h3>
                 <div class="warp1-content">
@@ -73,7 +73,7 @@
         <CaseList :showMore="true" class="case-list"></CaseList>
         <div class="bk02">
             <img
-                src="https://shyq-expo.fss-my.vhostgo.com/images/bk_02f.png"
+                src="../assets/index/design.jpg"
                 alt=""
             />
         </div>
@@ -333,11 +333,9 @@ const next = () => {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 412px;
-    background: url(http://www.shyq-expo.com/theme/cqxk/images/bk_02.png)
-        #60c0c6 no-repeat center center / cover;
+    // height: 412px;
     img {
-        width: 60%;
+        width: 100%;
     }
 }
 .box {
@@ -599,7 +597,8 @@ const next = () => {
         // background: url(http://www.shyq-expo.com/theme/cqxk/images/bk_02.png)
         //     #60c0c6 no-repeat center center / cover;
         img {
-            width: 80%;
+            // width: 80%;
+            // width: 100%;
         }
     }
     .box {

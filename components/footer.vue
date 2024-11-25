@@ -8,8 +8,8 @@
             </div>
             <div class="mes1">
                 <div class="p1 font28">
-                    <a href="/case/">巴顿品牌咨询与设计</a><br>
-                    <a href="javascript:void(0)">懂美学，更懂生意</a><br>-
+                    <a href="/case/">御全展览，您身边的展览执行专家！</a><br>
+                    <a href="javascript:void(0)">御传典范，全示非凡</a><br>-
                     <div class="font28">&nbsp;</div>
                 </div>
                 <p class="p2 font27">版权所有© 2017-2022 </p>
@@ -19,23 +19,14 @@
                 <p class="address font27">上海市松江区九新公路2888号2号楼2301</p>
                 <a class="font27" href="https://beian.miit.gov.cn/" target="_blank">沪ICP备17057121号</a>
                 <div class="tlink">
-                    <a class="flink font27 dj-flink" href="javascript:;">友情链接</a><a class="flink font27"
+                    <!-- <a class="flink font27 dj-flink" href="javascript:;">友情链接</a><a class="flink font27"
                         href="http://www.hzvis.com/sitemap.html" target="_blank">Baidu Map</a> <a
-                        class="flink font27 last" href="#" target="_blank">Googel Map</a>
-                    <!-- <ul class="tlinkmain clear " style="display: none;">
-                        <li><a href="#" target="_blank">VI设计</a></li>
-                        <li><a href="#" target="_blank">包装设计</a></li>
-                        <li><a href="#" target="_blank">设计公司</a></li>
-                        <li><a href="#" target="_blank">品牌策划</a></li>
-                        <li><a href="#" target="_blank">品牌设计</a></li>
-                        <li><a href="#" target="_blank">优个网</a></li>
-
-                    </ul> -->
+                        class="flink font27 last" href="#" target="_blank">Googel Map</a> -->
                 </div>
             </div>
             <div class="ewm">
                 <img :src="qr_code">
-                <p class="font27">关注巴顿公众号</p>
+                <p class="font27">关注御全公众号</p>
             </div>
         </div>
     </div>
@@ -48,7 +39,7 @@
             <div class="below">
                 <div class="left">
                     <p>
-                        杭州巴顿品牌设计<br>
+                        <!-- 杭州巴顿品牌设计<br> -->
                         上海市松江区九新公路2888号2号楼2301<br>
                         TEL：021-31029628<br>
                         </p>
