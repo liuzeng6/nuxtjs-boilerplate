@@ -2,7 +2,7 @@
     <div class="header clear on-top">
         <div class="header-in clear">
             <a href="/" class="logo">
-                <img class="img1" :src="logoImg" alt="巴顿品牌设计logo">
+                <img class="img1" :src="logoImg" alt="上海御全展览logo">
             </a>
             <ul class="mheader-nav right">
                 <li class="on nav0">
