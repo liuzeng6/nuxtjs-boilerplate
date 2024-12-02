@@ -3,7 +3,6 @@
         <div class="header-in clear">
             <a href="/" class="logo">
                 <img class="img1" :src="logoImg" alt="巴顿品牌设计logo">
-                <!-- <img class="img2" src="/static/logo-oth.png" alt="巴顿品牌设计logo"> -->
             </a>
             <ul class="mheader-nav right">
                 <li class="on nav0">
@@ -74,10 +73,11 @@ const hide = () => {
     .logo {
         overflow: hidden;
         height: 19px !important;
-        // margin-top: 3px !important;
 
         img {
-            height: inherit;
+            position: absolute;
+            margin-top: 0px !important;
+            height: 30px !important;
         }
     }
 }
@@ -207,7 +207,17 @@ const hide = () => {
             font-size: 15px;
         }
     }
+    .logo {
+        overflow: hidden;
+        height: 19px !important;
+        // margin-top: 3px !important;
 
+        img {
+            margin-top: -20px;
+            height: 60px;
+            // height: inherit;
+        }
+    }
     .right {
         float: right;
     }

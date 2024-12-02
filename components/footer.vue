@@ -9,7 +9,7 @@
             <div class="mes1">
                 <div class="p1 font28">
                     <a href="/case/">御全展览，您身边的展览执行专家！</a><br>
-                    <a href="javascript:void(0)">御传典范，全示非凡</a><br>-
+                    <a href="javascript:void(0)">御传典范，全示非凡</a><br>
                     <div class="font28">&nbsp;</div>
                 </div>
                 <p class="p2 font27">版权所有© 2017-2022 </p>
@@ -26,7 +26,7 @@
             </div>
             <div class="ewm">
                 <img :src="qr_code">
-                <p class="font27">关注御全公众号</p>
+                <p class="font27">最新案例请关注小红书账号</p>
             </div>
         </div>
     </div>
@@ -52,7 +52,8 @@
     </div>
 </template>
 <script setup>
-import qr_code from "@/assets/contact/qc_code.jpg"
+import qr_code from "@/assets/contact/xhs.png"
+// import qr_code from "@/assets/contact/qc_code.jpg"
 </script>
 <style scoped lang="less">
 a {
@@ -153,7 +154,7 @@ a {
                 border: 0;
                 display: block;
                 width: 68px;
-                margin: 2px auto 55px;
+                margin: 2px auto 20px;
             }
         }
     }

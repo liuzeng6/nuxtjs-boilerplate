@@ -21,6 +21,10 @@
         </div>
         <div class="section2">
             <div class="title">标准的制作场地，确保方案交互完美落地</div>
+            <div class="subTitle">
+                A standardized production site ensures seamless implementation
+                of project interactions
+            </div>
 
             <table class="list">
                 <tr>
@@ -51,6 +55,10 @@
         </div>
         <div class="section3">
             <div class="title">细节材料展示看得见的看不见的都是精品</div>
+            <div class="subTitle">
+                Showcasing meticulous details and materials, both visible and
+                hidden, are of exceptional quality
+            </div>
             <div class="list">
                 <div class="item">
                     <img src="../assets/about/背光金属发光字.jpg" alt="" />
@@ -74,6 +82,11 @@
         </div>
         <div class="section3" style="margin-bottom: 50px">
             <div class="title">御全展览色彩把控，高清比模糊更利于传播记忆</div>
+            <div class="subTitle">
+                Yu Quan's exhibition color management ensures that
+                high-definition, rather than blurriness, enhances memory
+                dissemination
+            </div>
             <div class="list">
                 <div class="item">
                     <img src="../assets/about/03.jpg" alt="" />
@@ -107,38 +120,60 @@
             <small class="subTitle"> Honorary certificate </small>
             <div class="list">
                 <div class="item">
-                    <img
-                        src="../assets/about/北京展览馆协会员单位.jpg"
-                        alt=""
-                    />
+                    <div class="el">
+                        <img
+                            src="../assets/about/北京展览馆协会员单位.jpg"
+                            alt=""
+                        />
+                    </div>
                     <div>北京展览馆协会员单位</div>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/绿色展览.jpg" alt="" />
+                    <div class="el">
+                        <img src="../assets/about/绿色展览.jpg" alt="" />
+                    </div>
                     <div>绿色展览</div>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/叁级搭建资质.jpg" alt="" />
+                    <div class="el">
+                        <img src="../assets/about/叁级搭建资质.jpg" alt="" />
+                    </div>
                     <div>叁级搭建资质</div>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/上海展览协会员单位.jpg" alt="" />
+                    <div class="el">
+                        <img
+                            src="../assets/about/上海展览协会员单位.jpg"
+                            alt=""
+                        />
+                    </div>
                     <div>上海展览协会员单位</div>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/CPCA最佳设计奖.jpg" alt="" />
+                    <div class="el">
+                        <img src="../assets/about/CPCA最佳设计奖.jpg" alt="" />
+                    </div>
                     <div>CPCA最佳设计奖</div>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/酒店用品优秀设计奖.jpg" alt="" />
+                    <div class="el">
+                        <img
+                            src="../assets/about/酒店用品优秀设计奖.jpg"
+                            alt=""
+                        />
+                    </div>
                     <div>酒店用品优秀设计奖</div>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/优质服务商.jpg" alt="" />
+                    <div class="el">
+                        <img src="../assets/about/优质服务商.jpg" alt="" />
+                    </div>
                     <div>优质服务商</div>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/卓越贡献奖.jpg" alt="" />
+                    <div class="el">
+                        <img src="../assets/about/卓越贡献奖.jpg" alt="" />
+                    </div>
                     <div>卓越贡献奖</div>
                 </div>
             </div>
@@ -172,12 +207,25 @@ img {
         }
         .right {
             color: #333;
+            letter-spacing: -1px;
+            color: #9fa0a0;
+            margin: 0;
+            padding: 0;
+            font-family: "PingFang SC", "HanHei SC", "Helvetica Neue",
+                Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial",
+                sans-serif;
+            line-height: 2em;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .right:hover{
+            color: #000;
         }
     }
     .section2 {
         .list {
             td {
-                padding: 10px;
+                //padding: 10px;
                 box-sizing: border-box;
             }
             img {
@@ -196,17 +244,35 @@ img {
         text-align: center;
         margin: 0;
         font-size: 28px;
-        padding: 60px 0 40px;
+        // padding: 60px 0 40px;
         letter-spacing: 4px;
         padding-left: 4px;
+        margin-top: 30px;
+    }
+    .section2 .subTitle,
+    .section3 .subTitle {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        color: #f90;
+        line-height: 2rem;
+        margin-bottom: 6px;
     }
     .section3 {
         .list {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            // gap: 10px;
             .item {
+                overflow: hidden;
                 width: 32%;
+                img {
+                    transition: 0.3s all ease;
+                    width: 100%;
+                }
+                img:hover {
+                    transform: scale(1.2);
+                }
             }
         }
     }
@@ -232,11 +298,26 @@ img {
             line-height: 2.2em;
             color: #f90;
             font-size: 14px;
+
+            color: #9fa0a0;
+            margin: 0;
+            padding: 0;
+            font-family: "PingFang SC", "HanHei SC", "Helvetica Neue",
+                Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial",
+                sans-serif;
+            line-height: 2em;
+            font-size: 14px;
+            transition: 0.3 all ease;
+            cursor: pointer;
+        }
+        .text:hover{
+            color: #000;
         }
         .list {
             display: flex;
             flex-wrap: wrap;
             .item {
+                overflow: hidden;
                 // box-sizing: border-box;
                 margin-top: 20px;
                 width: 23.5%;
@@ -244,6 +325,15 @@ img {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                .el {
+                    overflow: hidden;
+                    img {
+                        transition: 0.3s all ease;
+                    }
+                    img:hover {
+                        transform: scale(1.3);
+                    }
+                }
             }
         }
     }
@@ -261,7 +351,7 @@ img {
                 flex: 1;
             }
             .right {
-                color: #333;
+                // color: #333;
             }
         }
         .section2 {
@@ -293,9 +383,20 @@ img {
             margin: 0;
             // font-size: 14px;
             font-size: 24px;
-            padding: 30px 0 20px !important;
+            // padding: 30px 0 20px !important;
+            margin-top: 30px;
             letter-spacing: 4px;
             padding-left: 4px;
+        }
+        .section2 .subTitle,
+        .section3 .subTitle {
+            display: flex;
+            justify-content: center;
+            font-size: 10px;
+            color: #f90;
+            line-height: 2em;
+            margin-bottom: 10px;
+            align-items: center;
         }
         .section3 {
             .list {
@@ -307,39 +408,39 @@ img {
             }
         }
         .section4,
-    .section5 {
-        margin-bottom: 30px;
-        .title {
-            display: flex;
-            justify-content: center;
-            font-size: 30px;
-            font-weight: 300;
-            padding: 0px;
-            line-height: 1.2em;
-        }
-        .subTitle {
-            font-size: 10px;
-            color: #f90;
-            display: flex;
-            justify-content: center;
-        }
-        .text {
-            margin: 30px 0rpx;
-            line-height: 2.2em;
-            color: #f90;
-            font-size: 14px;
-        }
-        .list {
-            display: flex;
-            flex-wrap: wrap;
-            .item {
-                box-sizing: border-box;
-                margin-top: 20px;
-                width: 100%;
+        .section5 {
+            margin-bottom: 30px;
+            .title {
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                font-weight: 300;
                 padding: 0px;
+                line-height: 1.2em;
+            }
+            .subTitle {
+                font-size: 10px;
+                color: #f90;
+                display: flex;
+                justify-content: center;
+            }
+            .text {
+                // margin: 30px 0rpx;
+                // line-height: 2.2em;
+                // color: #f90;
+                // font-size: 14px;
+            }
+            .list {
+                display: flex;
+                flex-wrap: wrap;
+                .item {
+                    box-sizing: border-box;
+                    margin-top: 20px;
+                    width: 100%;
+                    padding: 0px;
+                }
             }
         }
-    }
     }
 }
 </style>

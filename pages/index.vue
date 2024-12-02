@@ -78,7 +78,7 @@
             />
         </div>
         <div class="box">
-            <div class="titsh s1"><b>合作流程</b><i class="hr1 s1"></i></div>
+            <div class="titsh s1"><b>合作流程</b><i class="hr1 s1">Collaboration Process</i></div>
             <ul class="lihzlc">
                 <li>
                     <i
@@ -156,13 +156,13 @@
         </div>
         <div class="warp5">
             <div class="title">懂美学，更懂生意</div>
-            <a class="more" href="/case/">Paton brand strategy design </a>
+            <a class="more" href="/case/"> yuquan brand strategy design </a>
         </div>
 
         <div class="boxpat">
             <div class="titsd">
                 <em>御全</em>与他们一起做有追求的事
-                <div class="mark-line"></div>
+                <div class="mark-line">Yu Quan partners with them to pursue meaningful endeavors</div>
             </div>
             <div class="pat">
                 <div class="list">
@@ -749,7 +749,7 @@ const next = () => {
     }
 
     .warp5 {
-        height: 200px;
+        height: 370px;
         margin: 0px;
 
         .title {
