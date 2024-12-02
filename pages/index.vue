@@ -45,19 +45,19 @@
             <div class="pflex">
                 <h3 class="pingfang">
                     <a href="/about" style="color: #2c2c2c"
-                        >御全=全球临展X企业展厅X企业活动X商业活动X舞台舞美服务商</a
+                        >御全=全球临展X企业展厅X企业活动X商业活动X舞台物美服务商</a
                     >
                 </h3>
                 <div class="warp1-content">
                     <a href="/about" rel="nofollow">
                         <p>
-                            14年专注临展，活动，展厅道具展柜设计与施工这一件事，致力于成为行业高标准高要求的一家展览服务型公司
+                            14年专注临展、活动、展厅道具展柜设计与施工，致力于成为行业高标准高要求的一家展览服务型公司。
                         </p>
                         <p>
-                            我们秉持“精准定制”战略，深入剖析客户品牌、目标受众，打造个性化展览方案，让每一场展览都成为品牌独特的发声器。
+                            我们秉持“精准定制”战略，深入剖析客户品牌、目标受众、打造个性化展览方案，让每一场展览都成为品牌独特的发声器。
                         </p>
                         <p>
-                            我们还是效率和品质的守护者。一站式的服务流程，如同精密的齿轮，从策划、搭建到撤展，每一个环节都紧密咬合，有运转。确保为您呈现出最完美的展览空间。'Design、Pentawards、香港HKDA环球设计等国际权威大奖...
+                            我们还是效率和品质的守护者，一站式的服务流程，如同精密的齿轮，从策划、搭建到撤展，每一个环节都紧密咬合，有序运转。确保为您呈现出最完美的展览空间。
                         </p>
                     </a>
                 </div>
@@ -78,7 +78,7 @@
             />
         </div>
         <div class="box">
-            <div class="titsh s1"><b>合作流程</b><i class="hr1 s1">Collaboration Process</i></div>
+            <div class="titsh s1"><b>合作流程</b><span class="sub s1">Collaboration Process</span></div>
             <ul class="lihzlc">
                 <li>
                     <i
@@ -354,6 +354,9 @@ const next = () => {
             font-size: 36px;
             font-weight: normal;
         }
+    }
+    .sub{
+        font-size: 0.8em;
     }
     .lihzlc {
         display: flex;
