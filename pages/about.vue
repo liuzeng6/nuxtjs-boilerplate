@@ -226,6 +226,7 @@ img {
                 sans-serif;
             line-height: 2em;
             font-size: 17px;
+            font-size: 17px;
             cursor: pointer;
         }
         .right:hover {
@@ -283,6 +284,7 @@ img {
             // gap: 10px;
             .item {
                 overflow: hidden;
+                width: 33%;
                 width: 33%;
                 img {
                     transition: 0.3s all ease;
