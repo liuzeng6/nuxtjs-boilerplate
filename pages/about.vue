@@ -9,7 +9,13 @@
                 />
             </div>
             <div class="right">
-                辉煌征程，一路高歌;上海御全展览展示服务有限公司秉承着“实现客户价值最大化”的使命从2011年4月成立之初便立志成为一家专业从事展览展示服务设计策划与制作为一体的专业展览展示服务提供商。本着“智能制造服务于新颖会展”的发展理念，公司拥有超5000平米的独立展览制作工厂，工厂设有专业完善的烤漆车间、铁工车间、木工车间、美工车间等;多车间协同并进能优质快速的完成工程制作、现场施工搭建与布置、应急维护、展后拆卸与仓储等工作;工厂拥有包括木工、美工、焊工、电工、运输工以及项管人员在内的60多人组成的专业队伍;稳定高效的工人队伍是御全高速发展的重要保障。在“力求创新，追求卓越”的企业宗旨下，公司始终及时把握当今展览展示发展趋势，不断运用最新的设计理念，更新加工制作设备，采用新型制作材料及工艺，以满足客户不同的需要;为客户提供量身定做、精简成本、更专业、更个性、更完美更实用、更配套的全方位服务。10年来，公司服务过2000+家企业(覆盖IT科技、文娱产业、服装、汽车、食品、医疗等100+个行业)提供了展览展示服务，业务足迹遍及全球50多个城市和地区，无论你的哪，我们广泛的联系网，都能给您提供优质的设计方案和服务，目前御全已是多场展会展推荐搭建商。服务为先，客户第一;以“实现客户价值最大化”为企业使命，作为专业展览展示服务提供商，御全将本着一如既往的专业精神，会更加努力的为客户提供更专业和完善的服务;并脚踏实地的积极为之努力，把最好的设计，最好的施工，最好的服务呈现给各界客户，从而让客户的市场推广手段更加富有成效，更加与众不同。
+                辉煌征程，一路高歌;上海御全展览展示服务有限公司秉承着“实现客户价值最大化”的使命从2011年4月成立之初便立志成为一家专业从事展览展示服务设计策划与制作为一体的专业展览展示服务提供商。
+                <br />
+                本着“智能制造服务于新颖会展”的发展理念，公司拥有超5000平米的独立展览制作工厂，工厂设有专业完善的烤漆车间、铁工车间、木工车间、美工车间等;多车间协同并进能优质快速的完成工程制作、现场施工搭建与布置、应急维护、展后拆卸与仓储等工作;工厂拥有包括木工、美工、焊工、电工、运输工以及项管人员在内的60多人组成的专业队伍;稳定高效的工人队伍是御全高速发展的重要保障。
+                <br />
+                在“力求创新，追求卓越”的企业宗旨下，公司始终及时把握当今展览展示发展趋势，不断运用最新的设计理念，更新加工制作设备，采用新型制作材料及工艺，以满足客户不同的需要;为客户提供量身定做、精简成本、更专业、更个性、更完美更实用、更配套的全方位服务。10年来，公司服务过2000+家企业(覆盖IT科技、文娱产业、服装、汽车、食品、医疗等100+个行业)提供了展览展示服务，业务足迹遍及全球50多个城市和地区，无论你的哪，我们广泛的联系网，都能给您提供优质的设计方案和服务，目前御全已是多场展会展推荐搭建商。
+                <br />
+                服务为先，客户第一;以“实现客户价值最大化”为企业使命，作为专业展览展示服务提供商，御全将本着一如既往的专业精神，会更加努力的为客户提供更专业和完善的服务;并脚踏实地的积极为之努力，把最好的设计，最好的施工，最好的服务呈现给各界客户，从而让客户的市场推广手段更加富有成效，更加与众不同。
             </div>
         </div>
         <div style="margin-top: 50px">
@@ -104,15 +110,15 @@
             <small class="subTitle">Commitment to quality</small>
             <div class="text">
                 我不能给您低的价格，只能给您高的品质。我宁可为价格解释一阵子，也不愿意为质量道歉一辈子！如果单纯为了追求利润，完全可以通过降低成本来达到快速销售的目的，但我们认为只有好的品质才是我们值得骄傲的，为了承诺，我们不会因短期的利益而出卖未来，我们努力坚持得到越来越多的客户认可和追随，这正是我们继续前进的最大动力！无以感谢，唯报品质！
-                I can't give you the lowest price, only the highest quality. I
-                would rather explain the price for a while than apologize for
-                the quality for a lifetime! If we only want to pursue profits,
-                we can achieve the goal of rapid sales by reducing costs. But we
-                believe that only perfect quality is our pride. In order to
-                promise that we will not sell the future for short-term
-                benefits, we strive to get more and more customers' recognition
-                and follow, which is the biggest driving force for us to
-                continue to move forward! No thanks, only quality!
+                <br />I can't give you the lowest price, only the highest
+                quality. I would rather explain the price for a while than
+                apologize for the quality for a lifetime! If we only want to
+                pursue profits, we can achieve the goal of rapid sales by
+                reducing costs. But we believe that only perfect quality is our
+                pride. In order to promise that we will not sell the future for
+                short-term benefits, we strive to get more and more customers'
+                recognition and follow, which is the biggest driving force for
+                us to continue to move forward! No thanks, only quality!
             </div>
         </div>
         <div class="section5">
@@ -191,12 +197,13 @@ img {
     width: 100%;
     height: 100%;
 }
-.subTitle{
+.subTitle {
     color: #666 !important;
 }
 .page {
     width: 100%;
-    max-width: 1200px;
+    max-width: 85%;
+    //max-width: 1200px;
     margin: 0px auto;
     .section1 {
         margin-top: 100px;
@@ -221,7 +228,7 @@ img {
             font-size: 17px;
             cursor: pointer;
         }
-        .right:hover{
+        .right:hover {
             color: #000;
         }
     }
@@ -231,14 +238,14 @@ img {
                 //padding: 10px;
                 box-sizing: border-box;
                 overflow: hidden;
-                img{
-                    transition: .3s all ease;
+                img {
+                    transition: 0.3s all ease;
                 }
-                img:hover{
+                img:hover {
                     transform: scale(1.2);
                 }
             }
-            
+
             img {
                 display: block;
             }
@@ -321,7 +328,7 @@ img {
             transition: 0.3 all ease;
             cursor: pointer;
         }
-        .text:hover{
+        .text:hover {
             color: #000;
         }
         .list {
