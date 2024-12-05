@@ -245,6 +245,7 @@ const hide = () => {
 
         .meun-off {
             float: right;
+            margin-right: 10px;
             display: block;
         }
 

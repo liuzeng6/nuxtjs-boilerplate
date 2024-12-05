@@ -5,7 +5,7 @@
                 <img
                     src="../assets/about/about_img.jpg"
                     alt=""
-                    style="width: 100%; height: 100%"
+                    style="height: 100%;width: 100%;"
                 />
             </div>
             <div class="right">
@@ -209,24 +209,24 @@ img {
         margin-top: 100px;
         display: flex;
         gap: 40px;
+        align-items: center;
         div {
-            flex: 1;
+            // flex: 1;
         }
         .left {
-            width: 100%;
+            // width: 100%;
         }
         .right {
             color: #333;
-            letter-spacing: -1px;
+            // letter-spacing: -1px;
             color: #9fa0a0;
             margin: 0;
             padding: 0;
             font-family: "PingFang SC", "HanHei SC", "Helvetica Neue",
                 Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial",
                 sans-serif;
-            line-height: 2em;
-            font-size: 17px;
-            font-size: 17px;
+            // line-height: 2em;
+            font-size: .8em;
             cursor: pointer;
         }
         .right:hover {
@@ -361,6 +361,7 @@ img {
 @media screen and (max-width: 750px) {
     .page {
         width: 90%;
+        max-width: 100%;
         // max-width: 1200px;
         margin: 0px auto;
         .section1 {

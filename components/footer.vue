@@ -44,8 +44,9 @@
                         TEL：021-31029628<br>
                         </p>
                 </div>
-                <div class="right" style="margin-top: 38px">
+                <div class="right">
                     <img :src="qr_code" class="lazy">
+                    <p class="font27">最新案例请关注小红书账号</p>
                 </div>
             </div>
         </div>
@@ -85,6 +86,7 @@ a {
 
             .right {
                 width: 100px;
+                margin-top: -25px;
 
                 height: 100px;
 

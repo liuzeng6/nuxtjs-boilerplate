@@ -55,7 +55,6 @@
                         </p>
                         <p>
                             我们秉持“精准定制”战略，深入剖析客户品牌、目标受众、打造个性化展览方案，让每一场展览都成为品牌独特的发声器。
-                            我们秉持“精准定制”战略，深入剖析客户品牌、目标受众、打造个性化展览方案，让每一场展览都成为品牌独特的发声器。
                         </p>
                         <p>
                             我们还是效率和品质的守护者，一站式的服务流程，如同精密的齿轮，从策划、搭建到撤展、每一个环节都紧密咬合，有序运转，确保为您呈现出最完美的展览空间。
@@ -73,14 +72,15 @@
 
         <CaseList :showMore="true" class="case-list"></CaseList>
         <div class="bk02">
-            <img
-                src="../assets/index/design.jpg"
-                alt=""
-            />
+            <img src="../assets/index/design.jpg" alt="" />
         </div>
         <div class="box">
-            <div class="titsh s1"><b>合作流程</b><span class="sub s1">Collaboration Process</span></div>
-            <div class="titsh s1"><b>合作流程</b><span class="sub s1">Collaboration Process</span></div>
+            <div class="titsh s1">
+                <b>合作流程</b><span class="sub s1">Collaboration Process</span>
+            </div>
+            <div class="titsh s1">
+                <b>合作流程</b><span class="sub s1">Collaboration Process</span>
+            </div>
             <ul class="lihzlc">
                 <li>
                     <i
@@ -164,7 +164,9 @@
         <div class="boxpat">
             <div class="titsd">
                 <em>御全</em>与他们一起做有追求的事
-                <div class="mark-line">Yu Quan partners with them to pursue meaningful endeavors</div>
+                <div class="mark-line">
+                    Yu Quan partners with them to pursue meaningful endeavors
+                </div>
             </div>
             <div class="pat">
                 <div class="list">
@@ -357,10 +359,10 @@ const next = () => {
             font-weight: normal;
         }
     }
-    .sub{
+    .sub {
         font-size: 0.8em;
     }
-    .sub{
+    .sub {
         font-size: 0.8em;
     }
     .lihzlc {
@@ -757,8 +759,9 @@ const next = () => {
     }
 
     .warp5 {
-        height: 370px;
+        // height: 200px;
         margin: 0px;
+        height: calc((100vw / 283) * 145);
 
         .title {
         }
