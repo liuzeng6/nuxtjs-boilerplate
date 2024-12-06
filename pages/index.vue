@@ -164,6 +164,7 @@
         <div class="warp5">
             <div class="title">懂美学，更懂生意</div>
             <a class="more" href="/case/"> yuquan brand strategy design </a>
+            <img src="../assets/index/1722234398_6949.gif" alt="" style="width: 100%;height: 100%;">
         </div>
 
         <div class="boxpat">
@@ -498,6 +499,7 @@ const next = () => {
     }
 }
 .warp5 {
+    position: relative;
     height: calc(100vh);
     // height: 800px;
     margin: 100px 0px 0px;
@@ -511,11 +513,13 @@ const next = () => {
     align-items: center;
     background-attachment: fixed;
     width: 100%;
-    background-image: url("../assets/index/1722234398_6949.gif");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    //background-image: url("../assets/index/1722234398_6949.gif");
+    //background-size: 100% 100%;
+    //background-repeat: no-repeat;
 
     .title {
+        position: absolute;
+        z-index: 99;
         margin: 0;
         padding: 0;
         font-family: "PingFang SC", "HanHei SC", "Helvetica Neue",
