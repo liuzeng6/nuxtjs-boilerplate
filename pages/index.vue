@@ -35,7 +35,12 @@
                     class="banner"
                 >
                     <NuxtLink :href="slide.link">
-                        <img :src="slide.image" alt="" width="100%" />
+                        <img
+                            :src="slide.image"
+                            alt=""
+                            width="100%"
+                            loading="lazy"
+                        />
                     </NuxtLink>
                 </SwiperSlide>
                 <div class="swiper-pagination" slot="pagination"></div>
@@ -63,10 +68,10 @@
                 </div>
             </div>
             <div class="mflex">
-                <div class="flex">
+                <!-- <div class="flex">
                     <a class="mn font20" href="javascript:;">OUR WORK</a>
                     <p class="mn font20">DO one thing BEST.</p>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -75,9 +80,9 @@
             <img src="../assets/index/design.jpg" alt="" />
         </div>
         <div class="box">
-            <div class="titsh s1">
+            <!-- <div class="titsh s1">
                 <b>合作流程</b><span class="sub s1">Collaboration Process</span>
-            </div>
+            </div> -->
             <div class="titsh s1">
                 <b>合作流程</b><span class="sub s1">Collaboration Process</span>
             </div>
@@ -567,10 +572,59 @@ const next = () => {
 
     .warp1 {
         .pflex {
-            display: none !important;
+            box-sizing: border-box;
+            color: #5f6061;
+            margin: 0;
+            font-family: "PingFang SC", "HanHei SC", "Helvetica Neue",
+                Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial",
+                sans-serif;
+            line-height: 2em;
+            font-size: 14px;
+            position: relative;
+            z-index: 9;
+            background-color: #fff;
+            padding: 55px 10px 0px !important;
+            padding-left: calc((100% - 1080px) / 2);
+            padding-right: 2.5%;
+
+            h3 {
+                font-size: 18px;
+                font-weight: 500;
+                color: #5f6061;
+                margin-bottom: 0px !important;
+            }
+
+            .warp1-content {
+                color: #5f6061;
+                margin: 0;
+                padding: 0;
+                font-family: "PingFang SC", "HanHei SC", "Helvetica Neue",
+                    Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial",
+                    sans-serif;
+                line-height: 2em;
+                font-size: 14px;
+
+                a {
+                    p {
+                        font-size: 14px;
+                    }
+
+                    letter-spacing: -1px;
+                    color: #9fa0a0;
+                    transition: all 0.3s ease;
+                    font-family: "Helvetica Neue", Helvetica, Arial,
+                        "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC",
+                        "WenQuanYi Micro Hei", sans-serif;
+                }
+
+                a:hover {
+                    color: #000;
+                }
+            }
         }
 
         .mflex {
+            display: none !important;
             margin-top: 80px;
             display: block;
 
@@ -759,9 +813,12 @@ const next = () => {
     }
 
     .warp5 {
-        // height: 200px;
         margin: 0px;
         height: calc((100vw / 283) * 145);
+
+        background-size: cover;
+        background-position: center;
+        // background-size: 100% 100%;
 
         .title {
         }

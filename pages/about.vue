@@ -35,26 +35,26 @@
             <table class="list">
                 <tr>
                     <td rowspan="2" colspan="2">
-                        <img src="../assets/about/厂房入口.jpg" alt="" />
+                        <img src="../assets/about/厂房入口.jpg" alt="" loading="lazy" />
                     </td>
                     <td>
-                        <img src="../assets/about/美工房.jpg" alt="" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="../assets/about/制作车间.jpg" alt="" />
+                        <img src="../assets/about/美工房.jpg" alt="" loading="lazy" />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="../assets/about/喷漆车间.jpg" alt="" />
+                        <img src="../assets/about/制作车间.jpg" alt=""  loading="lazy"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../assets/about/喷漆车间.jpg" alt=""  loading="lazy"/>
                     </td>
                     <td>
-                        <img src="../assets/about/送货.jpg" alt="" />
+                        <img src="../assets/about/送货.jpg" alt="" loading="lazy"/>
                     </td>
                     <td>
-                        <img src="../assets/about/物料间.jpg" alt="" />
+                        <img src="../assets/about/物料间.jpg" alt="" loading="lazy" />
                     </td>
                 </tr>
             </table>
@@ -67,22 +67,22 @@
             </div>
             <div class="list">
                 <div class="item">
-                    <img src="../assets/about/背光金属发光字.jpg" alt="" />
+                    <img src="../assets/about/背光金属发光字.jpg" alt=""  loading="lazy"/>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/高光防火板饰面 (1).jpg" alt="" />
+                    <img src="../assets/about/高光防火板饰面 (1).jpg" alt="" loading="lazy"/>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/密度板雕刻烤漆柜.jpg" alt="" />
+                    <img src="../assets/about/密度板雕刻烤漆柜.jpg" alt="" loading="lazy"/>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/黑底背胶写真.jpg" alt="" />
+                    <img src="../assets/about/黑底背胶写真.jpg" alt="" loading="lazy"/>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/木纹PVC贴纸.jpg" alt="" />
+                    <img src="../assets/about/木纹PVC贴纸.jpg" alt="" loading="lazy"/>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/水波纹不锈钢饰面.jpg" alt="" />
+                    <img src="../assets/about/水波纹不锈钢饰面.jpg" alt="" loading="lazy"/>
                 </div>
             </div>
         </div>
@@ -95,13 +95,13 @@
             </div>
             <div class="list">
                 <div class="item">
-                    <img src="../assets/about/03.jpg" alt="" />
+                    <img src="../assets/about/03.jpg" alt="" loading="lazy"/>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/02.jpg" alt="" />
+                    <img src="../assets/about/02.jpg" alt="" loading="lazy"/>
                 </div>
                 <div class="item">
-                    <img src="../assets/about/01.jpg" alt="" />
+                    <img src="../assets/about/01.jpg" alt="" loading="lazy"/>
                 </div>
             </div>
         </div>
@@ -130,19 +130,20 @@
                         <img
                             src="../assets/about/北京展览馆协会员单位.jpg"
                             alt=""
+                            loading="lazy"
                         />
                     </div>
                     <div>北京展览馆协会员单位</div>
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/绿色展览.jpg" alt="" />
+                        <img src="../assets/about/绿色展览.jpg" alt="" loading="lazy" />
                     </div>
                     <div>绿色展览</div>
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/叁级搭建资质.jpg" alt="" />
+                        <img src="../assets/about/叁级搭建资质.jpg" alt="" loading="lazy" />
                     </div>
                     <div>叁级搭建资质</div>
                 </div>
@@ -150,6 +151,7 @@
                     <div class="el">
                         <img
                             src="../assets/about/上海展览协会员单位.jpg"
+                            loading="lazy"
                             alt=""
                         />
                     </div>
@@ -157,7 +159,7 @@
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/CPCA最佳设计奖.jpg" alt="" />
+                        <img src="../assets/about/CPCA最佳设计奖.jpg" alt="" loading="lazy"/>
                     </div>
                     <div>CPCA最佳设计奖</div>
                 </div>
@@ -166,19 +168,20 @@
                         <img
                             src="../assets/about/酒店用品优秀设计奖.jpg"
                             alt=""
+                            loading="lazy"
                         />
                     </div>
                     <div>酒店用品优秀设计奖</div>
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/优质服务商.jpg" alt="" />
+                        <img src="../assets/about/优质服务商.jpg" alt="" loading="lazy"/>
                     </div>
                     <div>优质服务商</div>
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/卓越贡献奖.jpg" alt="" />
+                        <img src="../assets/about/卓越贡献奖.jpg" alt="" loading="lazy"/>
                     </div>
                     <div>卓越贡献奖</div>
                 </div>
