@@ -5,7 +5,7 @@
                 <img
                     src="../assets/about/about_img.jpg"
                     alt=""
-                    style="height: 100%; width: 100%"
+                    
                 />
             </div>
             <div class="right">
@@ -283,9 +283,13 @@ img {
         align-items: center;
         div {
             // flex: 1;
+
         }
         .left {
             // width: 100%;
+            img{
+                width: 26vw;
+            }
         }
         .right {
             color: #333;
@@ -297,7 +301,7 @@ img {
                 Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial",
                 sans-serif;
             // line-height: 2em;
-            font-size: 0.8em;
+            font-size: 1vw;
             cursor: pointer;
         }
         .right:hover {
@@ -442,6 +446,9 @@ img {
             div {
                 width: 100%;
                 flex: 1;
+                img{
+                    width: 100% !important;
+                }
             }
             .right {
                 margin-top: 20px;
