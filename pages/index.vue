@@ -68,10 +68,6 @@
                 </div>
             </div>
             <div class="mflex">
-                <!-- <div class="flex">
-                    <a class="mn font20" href="javascript:;">OUR WORK</a>
-                    <p class="mn font20">DO one thing BEST.</p>
-                </div> -->
             </div>
         </div>
 
@@ -80,9 +76,6 @@
             <img src="../assets/index/design.jpg" alt="" />
         </div>
         <div class="box">
-            <!-- <div class="titsh s1">
-                <b>合作流程</b><span class="sub s1">Collaboration Process</span>
-            </div> -->
             <div class="titsh s1">
                 <b>合作流程</b><span class="sub s1">Collaboration Process</span>
             </div>
@@ -192,9 +185,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-// import bannerList from "@/data/banner"
-// import about_img1 from "../assets/index/about3-img-top.jpg";
-// import about_img2 from "../assets/index/1722318097_1502.jpg";
 import CaseList from "@/components/caseList.vue";
 
 import useScroll from "@/hooks/useScroll";
@@ -237,7 +227,6 @@ const next = () => {
         height: 50%;
         position: absolute;
         top: 25%;
-        // background-color: red;
         z-index: 9999;
         font-size: 40px;
         color: #fff;

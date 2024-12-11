@@ -5,7 +5,7 @@
                 <img
                     src="../assets/about/about_img.jpg"
                     alt=""
-                    style="height: 100%;width: 100%;"
+                    style="height: 100%; width: 100%"
                 />
             </div>
             <div class="right">
@@ -35,26 +35,50 @@
             <table class="list">
                 <tr>
                     <td rowspan="2" colspan="2">
-                        <img src="../assets/about/厂房入口.jpg" alt="" loading="lazy" />
+                        <img
+                            src="../assets/about/厂房入口.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </td>
                     <td>
-                        <img src="../assets/about/美工房.jpg" alt="" loading="lazy" />
+                        <img
+                            src="../assets/about/美工房.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="../assets/about/制作车间.jpg" alt=""  loading="lazy"/>
+                        <img
+                            src="../assets/about/制作车间.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="../assets/about/喷漆车间.jpg" alt=""  loading="lazy"/>
+                        <img
+                            src="../assets/about/喷漆车间.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </td>
                     <td>
-                        <img src="../assets/about/送货.jpg" alt="" loading="lazy"/>
+                        <img
+                            src="../assets/about/送货.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </td>
                     <td>
-                        <img src="../assets/about/物料间.jpg" alt="" loading="lazy" />
+                        <img
+                            src="../assets/about/物料间.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </td>
                 </tr>
             </table>
@@ -67,22 +91,46 @@
             </div>
             <div class="list">
                 <div class="item">
-                    <img src="../assets/about/背光金属发光字.jpg" alt=""  loading="lazy"/>
+                    <img
+                        src="../assets/about/背光金属发光字.jpg"
+                        alt=""
+                        loading="lazy"
+                    />
                 </div>
                 <div class="item">
-                    <img src="../assets/about/高光防火板饰面 (1).jpg" alt="" loading="lazy"/>
+                    <img
+                        src="../assets/about/高光防火板饰面 (1).jpg"
+                        alt=""
+                        loading="lazy"
+                    />
                 </div>
                 <div class="item">
-                    <img src="../assets/about/密度板雕刻烤漆柜.jpg" alt="" loading="lazy"/>
+                    <img
+                        src="../assets/about/密度板雕刻烤漆柜.jpg"
+                        alt=""
+                        loading="lazy"
+                    />
                 </div>
                 <div class="item">
-                    <img src="../assets/about/黑底背胶写真.jpg" alt="" loading="lazy"/>
+                    <img
+                        src="../assets/about/黑底背胶写真.jpg"
+                        alt=""
+                        loading="lazy"
+                    />
                 </div>
                 <div class="item">
-                    <img src="../assets/about/木纹PVC贴纸.jpg" alt="" loading="lazy"/>
+                    <img
+                        src="../assets/about/木纹PVC贴纸.jpg"
+                        alt=""
+                        loading="lazy"
+                    />
                 </div>
                 <div class="item">
-                    <img src="../assets/about/水波纹不锈钢饰面.jpg" alt="" loading="lazy"/>
+                    <img
+                        src="../assets/about/水波纹不锈钢饰面.jpg"
+                        alt=""
+                        loading="lazy"
+                    />
                 </div>
             </div>
         </div>
@@ -95,13 +143,13 @@
             </div>
             <div class="list">
                 <div class="item">
-                    <img src="../assets/about/03.jpg" alt="" loading="lazy"/>
+                    <img src="../assets/about/03.jpg" alt="" loading="lazy" />
                 </div>
                 <div class="item">
-                    <img src="../assets/about/02.jpg" alt="" loading="lazy"/>
+                    <img src="../assets/about/02.jpg" alt="" loading="lazy" />
                 </div>
                 <div class="item">
-                    <img src="../assets/about/01.jpg" alt="" loading="lazy"/>
+                    <img src="../assets/about/01.jpg" alt="" loading="lazy" />
                 </div>
             </div>
         </div>
@@ -137,13 +185,21 @@
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/绿色展览.jpg" alt="" loading="lazy" />
+                        <img
+                            src="../assets/about/绿色展览.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </div>
                     <div>绿色展览</div>
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/叁级搭建资质.jpg" alt="" loading="lazy" />
+                        <img
+                            src="../assets/about/叁级搭建资质.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </div>
                     <div>叁级搭建资质</div>
                 </div>
@@ -159,7 +215,11 @@
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/CPCA最佳设计奖.jpg" alt="" loading="lazy"/>
+                        <img
+                            src="../assets/about/CPCA最佳设计奖.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </div>
                     <div>CPCA最佳设计奖</div>
                 </div>
@@ -175,13 +235,21 @@
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/优质服务商.jpg" alt="" loading="lazy"/>
+                        <img
+                            src="../assets/about/优质服务商.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </div>
                     <div>优质服务商</div>
                 </div>
                 <div class="item">
                     <div class="el">
-                        <img src="../assets/about/卓越贡献奖.jpg" alt="" loading="lazy"/>
+                        <img
+                            src="../assets/about/卓越贡献奖.jpg"
+                            alt=""
+                            loading="lazy"
+                        />
                     </div>
                     <div>卓越贡献奖</div>
                 </div>
@@ -229,7 +297,7 @@ img {
                 Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial",
                 sans-serif;
             // line-height: 2em;
-            font-size: .8em;
+            font-size: 0.8em;
             cursor: pointer;
         }
         .right:hover {
@@ -372,9 +440,13 @@ img {
             display: block !important;
             gap: 40px;
             div {
+                width: 100%;
                 flex: 1;
             }
             .right {
+                margin-top: 20px;
+                font-size: 14px !important;
+                line-height: 2em;
                 // color: #333;
             }
         }
@@ -405,9 +477,7 @@ img {
             user-select: none;
             text-align: center;
             margin: 0;
-            // font-size: 14px;
             font-size: 24px;
-            // padding: 30px 0 20px !important;
             margin-top: 30px;
             letter-spacing: 4px;
             padding-left: 4px;
@@ -449,10 +519,6 @@ img {
                 justify-content: center;
             }
             .text {
-                // margin: 30px 0rpx;
-                // line-height: 2.2em;
-                // color: #f90;
-                // font-size: 14px;
             }
             .list {
                 display: flex;
