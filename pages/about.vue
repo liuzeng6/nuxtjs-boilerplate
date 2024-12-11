@@ -301,7 +301,7 @@ img {
                 Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial",
                 sans-serif;
             // line-height: 2em;
-            font-size: 1vw;
+            font-size: .8vw;
             cursor: pointer;
         }
         .right:hover {
