@@ -2,19 +2,30 @@
     <div ref="content" class="page">
         <div class="title">{{ pageData?.name }}</div>
         <div class="items">
-            <div class="item" v-for="item in pageData?.images">
-                <img :src="item.url" alt="">
+            <div class="item" v-for="item in pageData.images">
+                <img :src="item" alt="" />
+                <img
+                    src="../../assets/index/watermark.png"
+                    alt=""
+                    class="logo"
+                />
             </div>
             <div class="desc" v-if="pageData?.desc">
                 {{ pageData.desc }}
             </div>
         </div>
         <div class="ending">
-            <span>御全展览成立至今,专业从事展览工作有超过10年+的经验,提供全面的各种以展览服务给客户。</span><br>
+            <span
+                >御全展览成立至今,专业从事展览工作有超过10年+的经验,提供全面的各种以展览服务给客户。</span
+            ><br />
             <span>联系电话：18201718661/柴小姐/13167294134 /胡小姐</span>
         </div>
         <ul class="more">
-            <a :href="`/case/${index}`" class="item" v-for=" item, index in dataList.slice(0, 8)">
+            <a
+                :href="`/case/${index}`"
+                class="item"
+                v-for="(item, index) in dataList.slice(0, 8)"
+            >
                 <li>
                     {{ item.name }}
                 </li>
@@ -30,26 +41,21 @@ import axios from "axios";
 const dataList = ref([]);
 
 import { ref } from "vue";
+import Watermark from "~/components/watermark.vue";
 import { baseURL } from "~/config";
 const route = useRoute();
 const pageData = ref({
     name: "",
-    images: []
+    images: [],
 });
 const id = route.params.id;
 onMounted(async () => {
     let { data } = await axios(baseURL + "/case");
-    // console.log(data);
     dataList.value = data;
     pageData.value = data[id - 1];
-    
-    // console.log(data.value);
-})
-//     return dataList[id - 1];
-// }
+});
 const content = ref(null);
 useScroll(content);
-
 </script>
 
 <style lang="less" scoped>
@@ -74,10 +80,19 @@ useScroll(content);
 
         .item {
             width: 100%;
-
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img {
                 width: 100%;
-                height: 100%
+                height: 100%;
+            }
+            .logo {
+                position: absolute;
+                z-index: 2;
+                width: 20%;
+                height: 20%;
             }
         }
 
@@ -118,7 +133,7 @@ useScroll(content);
         }
 
         .item::before {
-            content: '';
+            content: "";
             width: 8px;
             height: 8px;
             border-radius: 50%;
